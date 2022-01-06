@@ -1,0 +1,80 @@
+   1  mkdir data1
+    2  cd data1
+    3  mkdir data2
+    4  cd data2
+    5  mkdir data3
+    6  cd data3
+    7  mkdir data4
+    8  cd data4
+    9  cd ..
+   10  mkdir data5
+   11  ls
+   12  cd ..
+   13  tiuch a.txt
+   14  touch a.txt
+   15  touch b.txt
+   16  ls
+   17  cd data2
+   18  cd data3
+   19  cd ..
+   20  cd data5
+   21  cd data1
+   22  cd data2
+   23  cd data3
+   24  cd data5
+   25  touch c.txt
+   26  touch d.txt
+   27  cat > c.txt
+   28  cat c.txt
+   29  cat > d.txt
+   30  cat d.txt
+   31  pwd
+   32  cp /home/shital/data1/data2/data3/data5/d.txt /home/shital/data1/data2/data3/data4/
+   33  cd ..
+   34  cd data4
+   35  ls
+   36  cp /home/shital/data1/a.txt /home/data1/data2/data3/
+   37  cd ..
+   38  cp /home/shital/data1/a.txt /home/shital/data1/data2/data3/
+   39  cd data2
+   40  cd data3
+   41  ls
+   42  cd data4
+   43  cd ..
+   44  cd data5
+   45  mv /home/shital/data1/data2/data3/data5/c.txt /home/data1/data2/data3/data4/
+   46  ls
+   47  cd ..
+   48  cd data4
+   49  mv /home/shital/data1/data2/data3/data5/c.txt /home/data1/data2/data3/data4/
+   50  cd ..
+   51  cd data5
+   52  ls
+   53  mv /home/shital/data1/data2/data3/data5/c.txt /home/shital/data1/data2/data3/data4/
+   54  cd ..
+   55  cd data4
+   56  ls
+   57  cd ..
+   58  cd data5
+   59  ls
+   60  cd ..
+   61  mv /home/shital/data1/b.txt /home/shital/data1/data2/data3/data4/
+   62  cd data2
+   63  cd data3
+   64  cd data4
+   65  ls
+   66  mv /home/shital/data1/a.txt /home/shital/data1/data2/
+   67  cd ..
+   68  ls
+   69  cd ..
+   70  cp /home/shital/data1/data2/data3/data5/ /home/shital/data1/data2/
+   71  cp -r /home/shital/data1/data2/data3/data5/ /home/shital/data1/data2/
+   72  cd data2
+   73  ls
+   74  mv -r /home/shital/data1/data2/data3/data4/ /home/shital/data1/data2/data3/data5/
+   75  mv  /home/shital/data1/data2/data3/data4/ /home/shital/data1/data2/data3/data5/
+   76  cd data3
+   77  cd data5
+   78  ls
+   79  history
+
